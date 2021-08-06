@@ -1,0 +1,185 @@
+2021-08-06T12:45:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(382, 'Async Request')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\GamingStoreAstra\wp-admin\admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#15 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T12:45:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(390, 'WP Cron')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T12:50:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(398, 'WP Cron')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T12:52:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(399, 'WP Cron')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T12:53:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(400, 'Async Request')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\GamingStoreAstra\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T12:53:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(401, 'WP Cron')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T12:54:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(403, 'Async Request')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\GamingStoreAstra\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T12:54:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(404, 'WP Cron')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T12:55:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(405, 'Async Request')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\GamingStoreAstra\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T13:04:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(406, 'WP Cron')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
+2021-08-06T13:05:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(407, 'WP Cron')
+#5 C:\xampp\htdocs\GamingStoreAstra\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\GamingStoreAstra\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\GamingStoreAstra\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\GamingStoreAstra\wp-includes\class-wp-hook.php on line 303
+
